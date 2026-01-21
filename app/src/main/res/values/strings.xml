@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InterVox CalmGuide</string>
+
+    <!-- UI -->
+    <string name="intervox_brand">InterVox Science™</string>
+    <string name="logo_content_desc">InterVox Science logo</string>
+</resources>

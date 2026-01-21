@@ -1,0 +1,12 @@
+workflows:
+  android-debug:
+    name: Android Debug APK
+    environment:
+      java: 11
+    scripts:
+      - chmod +x ./gradlew || true
+      - java -version
+      - ./gradlew --version
+      - ./gradlew assembleDebug --stacktrace
+    artifacts:
+      - app/build/outputs/apk/debug/*.apk

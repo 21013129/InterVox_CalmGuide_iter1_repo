@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Legacy theme colors (kept for compatibility) -->
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!-- App scripted UI colors -->
+    <color name="intervox_white">#FFFFFF</color>
+    <!-- Soft sky blue -->
+    <color name="intervox_sky_blue">#4FC3F7</color>
+    <!-- Near-black deep blue -->
+    <color name="intervox_dark_blue">#050B1A</color>
+    <!-- Text blue (with white glow) -->
+    <color name="intervox_text_blue">#1E88E5</color>
+</resources>

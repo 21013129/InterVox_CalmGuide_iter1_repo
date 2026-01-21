@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/intervox_white"
+    android:keepScreenOn="true">
+
+    <!-- Logo: starts centered (alpha 0), then animates to the top-left. -->
+    <ImageView
+        android:id="@+id/logoView"
+        android:layout_width="280dp"
+        android:layout_height="280dp"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/logo_content_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/intervox_science"
+        android:alpha="0" />
+
+    <!-- Brand text: appears after the logo moved to the corner. -->
+    <TextView
+        android:id="@+id/brandText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|start"
+        android:alpha="0"
+        android:text="@string/intervox_brand"
+        android:textColor="@color/intervox_text_blue"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-medium"
+        android:letterSpacing="0.02"
+        android:shadowColor="@color/intervox_white"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="2" />
+
+</FrameLayout>
